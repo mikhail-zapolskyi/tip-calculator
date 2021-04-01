@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <script async src="main.js"></script>
+     <title>Tip Calculator</title>
+</head>
+<body>
+     <div class="container">
+          <div class='calculator'>
+               <label class='label' for="bill_amount">How much is your bill</label>
+               <input id="bill_amount" class="input" type="text" name="bill_amount" >
+               <label class='label' for="service_option">How was your stay</label>
+               <select class="input" id="service_option">
+                    <option value="">-- Pick an option --</option>
+                    <option value="exellent">Exellent</option>
+                    <option value="good">Good</option>
+                    <option value="ok">Ok</option>
+                    <option value="bad">Bad</option>
+               </select>
+               <label class='label' for="people">How many people are sharing the bill?</label>
+               <input class="input" type="text" name='people' id='people' placeholder="Number of people">
+               <div class="total">$0</div>
+               <button class='submit'>Calculate</button>
+               <button class='clear'>Clear</button>
+          </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     width: 100vw;
+     height: 100vh;
+     background-color: beige;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.calculator {
+     width: 40vw;
+     height: 80vh;
+     background-color: #333;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+}
+
+.label {
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 16px;
+     text-transform: uppercase;
+     padding: 15px;
+}
+
+.input {
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+}
+
+.total {
+     padding: 20px;
+     font-family: Verdana, sans-serif;
+     font-size: 20px;
+     color: #fff;
+}
+
+.submit,
+.clear {
+     width: 50%;
+     display: block;
+     margin: 5px;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     color: #000;
+}
